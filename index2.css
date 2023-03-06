@@ -1,0 +1,816 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    /* overflow: hidden; */
+}
+body
+{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+/* ultility classes */
+.container
+{
+    overflow: hidden;
+   
+    padding: 0 80px 0 80px;
+}
+ul
+{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+/* end utility classes */
+
+/* navbar css start */
+.navbar
+{
+    /* position: fixed; */
+    display: flex;
+    height: 15vh;
+    width: auto;
+    justify-content: space-between;
+   
+    
+}
+.navbar-logo
+{
+    height: 15vh;
+    width: 30%;
+}
+.navbar-logo img
+{
+    width: auto;
+    height:15vh;
+}
+.navbar-main
+{
+    width: 60%;
+    height: 15vh;
+    
+   
+}
+.navbar-main ul{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar-main ul li:nth-child(5)
+{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 6vh;
+    width: 15%;
+    background-color: rgba(147, 149, 151, 0.996);
+    border-radius:25px ;
+}
+.links a
+{
+    font-weight: 100;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.link5 a i
+{
+    color: rgb(59, 59, 59);
+    margin-right: 15px;
+}
+.nav-toggle
+{
+    display: none;
+}
+
+
+
+
+/* navbar css start */
+/* **************************************************** */
+/* header css */
+.top-page
+{
+    /* overflow: hidden; */
+    background: rgb(0,0,0,0.1) url("/IMG/hero_section\ \(1\).png") no-repeat ;
+    background-size: 100% 100%;
+    overflow: hidden;
+    height: 100vh;
+   
+  
+   
+    width: 100%;
+    
+
+}
+.top-page-main
+{
+    width: 60%;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.header-text1
+{
+
+    width: auto;
+    height: 41vh;
+    
+    
+}
+.header-text1 h1
+{
+   
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 75px; */
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    /* display: inline; */
+    height:30vh;
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.header-text1 h1 span
+{
+   color: #deb37e;
+}
+.header-text1 p
+{
+height: auto;
+width: auto;
+ padding-left: 2px;
+ font-style: italic;
+}
+.header-btn
+{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    
+}
+.header-btn a
+{
+    display: inline-block;
+    width:25%;
+    height: 7vh;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+.header-text2
+{
+    width: 70%;
+    height: 10vh;
+}
+.header-text2 p
+{
+    width: 100%;
+    height: 10vh;
+}
+
+
+
+
+/* header css end */
+/***************************/
+/* section 1  css*/
+.section1
+{
+    margin-top: 2px;
+    height: 23vh;
+    width: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1-text h1
+{
+    color: #e8942c;
+    height: auto;
+    width: 100%;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+}
+.section1-text p{
+    padding-top: 7px;
+    height: 10vh;
+    width:100%;
+    text-align: center;
+}
+
+
+
+/* section 1  css END*/
+/***********************/
+/* GALLERY CSS */
+
+.gallery
+{
+
+
+    width: 100%;
+    height: 100vh;
+   
+    background-image: url(/IMG/leaf_background\ \(1\).png);
+    background-size: 500px;
+    background-repeat:  no-repeat;
+    background-position: bottom left;
+}
+.gallery-main
+{
+   height: 66vh;
+    display: flex;
+    justify-content: center;
+   
+}
+.gallery-body
+{
+    flex-wrap:wrap;
+    width: 80%;
+    height: 66vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.gallery-page
+{
+    /* flex-wrap:wrap; */
+    background-color: rgba(98, 96, 95, 0.61);
+    width: 25%;
+    height: 66vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: centre;
+    align-items: center;
+
+
+  
+}
+.gallery-img
+{
+    height: 40vh;
+    width: 100%;
+}
+.gallery-img img
+{
+height: 40vh;
+width: 100%;
+}
+.gallery-heading
+{
+    width: 90%;
+    height: 26vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.gallery-heading h1
+{
+    color: white;
+    height:auto;
+   width: auto;
+   display: flex;
+    /* flex-direction: column; */
+    justify-content: start;
+    align-content: center;
+}
+.gallery-heading p
+{
+    color: white;
+    height: auto;
+    width: auto;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-content: center;
+}
+.gallery-btn
+{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-btn a
+{
+    width: 15%;
+    height: 8vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(98, 96, 95, 0.61);
+    border-radius: 25px;
+}
+/* GALLERY END */
+/* **************************** */
+/* block1 css */
+.block
+{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.block-img
+{
+    width: 50%;
+    height: 90vh;
+}
+.block-img img
+{
+    height: 90vh;
+    width: 100%;
+
+}
+.block-heading
+{
+    color: white;
+    background-color: #7f7770;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 50%;
+    height: 90vh;
+
+}
+.block-text-area
+{
+      width:85%;
+      height: 50vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.block-heading h1
+{
+    height: 10vh;
+    width: auto;
+}
+.block-heading h1
+{
+    
+    font-size: 2.5rem;
+}
+.block-heading p
+{
+    height: 15vh;
+    width: 100%;
+}
+.block1
+{
+    display: flex;
+}
+.block-btn
+{
+    background-color:#e2a355;
+    height: 10vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.block-btn a
+{
+    
+}
+/* block1 css end */
+/*********************************/
+/* block2 css */
+
+
+
+/* block2 css end */
+/*********************************/
+
+/* CSS TITLE1 */
+.title1
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/IMG/TITLE1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+   
+    /* align-items: center; */
+}
+.title1-text
+{
+    margin-top: 30vh;
+    height: 30vh;
+     width: auto;
+
+}
+.title1-text h1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    color: white;
+}
+.title1-text p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+}
+
+
+
+
+/* CSS TITLE1 END */
+/**********************************/
+/* CSS TITLE2  */
+.title2
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/IMG/title2.png);
+    background-size: 100% 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+
+}
+.title2-text
+{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+}
+
+.title2-text h1
+{
+display: flex;
+flex-direction: column; 
+ justify-content: end;
+font-size: 5rem;
+width: auto;
+margin-right: 82px;
+
+}
+.span1
+{
+    display: flex;
+    justify-content: end;
+    display: inline;
+    /* margin-left:  120px; */
+    width: auto;
+
+    color:#e2a355;
+}
+.span2{
+   
+    display: inline;
+    width: auto;
+    /* margin-right:153px; */
+}
+
+/* CSS TITLE2 */
+/***********************************/
+/* title3 */
+.section3
+{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section3-main
+{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.section3-main h1
+{
+  width:auto;
+  height: 8vh;
+}
+.section3-main p
+{
+    width: auto;
+    height: 15vh;
+}
+
+
+
+
+/* title3 end */
+/*************************************/
+
+/* section4 css */
+
+.section4
+{
+    height: 60vh;
+    width: 100%;
+    background-image: url(/IMG/Shadow.jpg);
+    background-size:500px ;
+    background-repeat: no-repeat;
+    background-position:bottom right ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section4-main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width:50%
+}
+.section4-text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: 20vh;
+}
+.section4-text p
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.section4 .span1
+{
+    font-size: 4rem;
+    font-weight: bold;
+}
+/* SECTION4 CSS END */
+/*******************************************/
+/* section 5 css */
+.section5
+{
+    width:100%;
+    height: 100vh;
+    background-image: url(/IMG/section5.png);
+    background-size:100% 100% ;
+    background-repeat: no-repeat;
+    background-position:bottom right ;
+
+
+}
+.section5-main
+{
+    width:100%;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section5-text
+{
+    height: 30vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section5-text .span1
+{
+    width:54%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    
+
+}
+.section5-text .span1 h1
+{
+    height: 100%;
+    width: 50%;
+    font-size: 3.5rem;
+    
+
+}
+.section5-text p
+{
+    width:auto;
+    height: 7vh;
+}
+.section5-email-box
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 75%;
+}
+.section5-email-box .span5
+{
+    display: flex;
+    height: 6vh;
+    width: 70%;
+}
+.section5-email-box input
+{
+    border: none;
+    height: 6vh;
+    width:95%;
+    border-radius: 20px;
+}
+.section5-email-box label
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: inline-block; */
+    /* flex-direction: column; */
+    height: 6.2vh;
+    width:39%;
+    border-radius: 20px; 
+    /* margin-right: 100px; */
+    z-index: 1;
+    position: relative;
+    right: 40px;
+    background-color: rgb(69, 4, 4);
+    color: white;
+}
+
+
+/* scetion 5 css end */
+/************************/
+/* lastsection */
+.lastsection
+{
+    height: 80vh;
+    width: 100%;
+    background-image: url(/IMG/last.png );
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lastsection-main
+{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+
+}
+.lastsectionpart1
+{
+    height: 50vh;
+    width:40%;
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+.lastsectionpart1 h1
+{
+    height: 12vh;
+    width: 86%;
+    color: white;
+}
+.lastsectionpart1 p
+{
+
+    height: 14vh;
+    width: 86%;
+    color: white;
+}
+
+.span6
+{
+    display: flex;
+    /* justify-content: space-between; */
+    height: 12vh;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.span7
+{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+}
+.span7 i
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon
+{
+    height: 5vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  
+
+}
+.lastsectionpart2
+{
+    height: 50vh;
+    width:15%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.lastsectionpart3
+{
+    height: 50vh;
+    width:15%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.lastsectionpart4
+{
+    height: 50vh;
+    width:15%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.span8 
+{
+height: 39vh;
+width: 100%;
+}
+.span8 a
+{
+    display: inline;
+    height:6vh;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-wrap:wrap ;
+    overflow: auto;
+    /* align-items: center; */
+    color: white;
+    padding-left: 10px;
+}
+
+
+
+/* lastsection css end */
