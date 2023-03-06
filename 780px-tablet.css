@@ -1,0 +1,617 @@
+@media  screen and (max-width:770px  ) {
+   /* navbar css start */
+   .navbar-logo img
+   {
+    height: 12vh;
+   } 
+   .navbar
+    {
+        /* overflow: hidden; */
+        height: 12vh;
+    }
+    .nav-toggle
+    {
+     
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 10%;    
+     
+     /* justify-content:end;     */
+    }
+    
+    .nav-toggle i
+    {
+        height: 4vh;
+        width: 100%;
+        font-size: 25px;
+    } 
+    .navbar-main 
+    {
+        background-color: rgb(175, 170, 160 ,0.4);
+        border-radius: 20px;
+        /* opacity: 0.4; */
+        /* display: none; */
+        /* overflow: hidden; */
+        height: 50vh;
+        width: 20%;
+        display: none;
+        position: absolute;
+        right: -700px;
+        top: 100px;
+    }
+    .navbar-main.active
+    {
+        right:0px;
+        display: block;
+    }
+    .navbar-main ul
+    {
+        /* position: absolute; */
+        flex-direction: column;
+        height: 50vh;
+    }
+    .navbar-main ul li:nth-child(5)
+{
+    width: 80%;
+
+}
+/* navbar css start */
+/* **************************************************** */
+/* header css */
+
+.top-page
+{
+    /* overflow: hidden; */
+    /* overflow: hidden; */
+    background: rgb(0,0,0,0.1) url("/IMG/for\ 780\ section1.png") no-repeat ;
+    background-size: 100% 100%;
+    height: 90vh;
+   
+  
+   
+    width: 100%;
+    
+
+}
+
+
+
+.header-text1 h1
+{
+   
+    font-size: 3rem;
+}
+.header-btn a
+{
+width: 50%;
+height: 6vh;
+}
+.header-text2 {
+
+width: 100%;
+}
+.header-text2 p {
+    height: 19vh;
+    width: 90%;
+}
+.header-text2 {
+
+    height: 19vh;
+}
+.header-text1 {
+height: 33vh;
+}
+/* header css end */
+/***************************/
+/* gallery css */
+.gallery-body
+{ 
+    width: 90%;
+    gap:20px;
+}
+.gallery-page
+{
+    width: 40%;
+}
+.gallery
+{
+    height: 180vh;
+}
+.gallery-main {
+    height: 140vh;
+}
+.gallery-btn a
+{
+    width: 30%;
+height: 6vh;
+}
+/* GALLERY END */
+/* **************************** */
+/* block1 css */
+.block
+{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+
+}
+.block-img img
+{
+    height: 70vh;
+    width: 100%;
+
+}  
+.block-btn
+{
+    width: 60%;
+    height: 6vh;
+}
+.block-heading
+{
+    color: white;
+    background-color: #7f7770;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 50%;
+    height: 70vh;
+
+}
+/*********************************/
+
+/* CSS TITLE1 */
+.title1-text
+{
+    margin-top: 30vh;
+    height: 30vh;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+}
+.title1-text h1
+{
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 50%;
+    color: white;
+}
+.title1-text p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    width: 50%;
+}
+
+/* CSS TITLE1 END */
+/**********************************/
+/* CSS TITLE2  */
+.title2
+{
+    height: 70vh;
+    width: 100%;
+    background-image: url(/IMG/title2.png);
+    background-size: 100% 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+
+}
+.title2-text {
+    height: 12vh;
+}
+.title2-text h1
+{
+display: flex;
+/* flex-direction: column;  */
+ justify-content: end;
+font-size: 2rem;
+width: auto;
+/* margin-right: 82px; */
+
+}
+
+/* CSS TITLE2 */
+/***********************************/
+/* title3 */
+
+
+
+
+/* title3 end */
+
+/************************/
+/* lastsection */
+
+
+/* last section css end */
+
+}
+@media screen and (max-width:440px) and (min-width:320px) {
+
+    /* .container
+{
+    overflow: hidden;
+    width: 100;
+    padding: 0 10px 0 10px;
+} */
+
+/* navbar css start */
+.navbar
+{
+    /* position: fixed; */
+    /* display: flex; */
+    height: 8vh;
+    /* width: auto;
+    justify-content: space-between; */
+   
+    
+}
+.navbar-logo 
+{
+    height: 8vh;
+}
+.navbar-logo img {
+    height: 8vh;
+}
+/* header css */
+
+.top-page
+{
+    /* overflow: hidden; */
+    /* overflow: hidden; */
+    background: rgb(0,0,0,0.1) url("/IMG/for\ 780\ section1.png") no-repeat ;
+    background-size: 100% 100%;
+    /* height: 40vh; */
+   
+    height: 50vh;
+    width: 100%;
+    
+
+}
+.top-page-main
+{
+    width: 60%;
+    height: 50vh; 
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.header-text1 h1 {
+font-size: 2rem;
+/* display: inline; */
+}
+
+
+    
+}
+
+
+
+@media screen and (min-width:320px ) and ((max-width:440px) ) {
+
+    .container
+{
+    overflow: hidden;
+    width: 100;
+    padding: 0 10px 0 10px;
+}
+
+/* navbar css start */
+.navbar
+{
+    /* position: fixed; */
+    /* display: flex; */
+    height: 8vh;
+    /* width: auto;
+    justify-content: space-between; */
+   
+    
+}
+.navbar-logo 
+{
+    height: 8vh;
+}
+.navbar-logo img {
+    height: 8vh;
+}
+/* header css */
+
+.top-page
+{
+    /* overflow: hidden; */
+    /* overflow: hidden; */
+    background: rgb(0,0,0,0.1) url("/IMG/for\ 780\ section1.png") no-repeat ;
+    background-size: 100% 100%;
+    /* height: 40vh; */
+   
+    height: 35vh;
+    width: 100%;
+    
+
+}
+.top-page-main
+{
+    width: 60%;
+    height: 42vh; 
+    /* overflow:auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.header-text1 {
+    height: 13vh;
+}
+
+
+.header-btn {
+height: 5vh;
+}
+.header-text1 h1 {
+    height:9vh;
+font-size: 1.3rem;
+/* display: inline; */
+}
+.header-text1 p {
+/* font-size: 0.1rem; */
+}
+.header-btn a {
+    
+    width: 40%;
+    height: 3vh;
+    font-size: 0.6rem;
+}
+.header-text2 p {
+    font-size: 0.5rem; 
+ }
+.header-text2  {
+   height: 6vh; 
+}
+/***************************/
+/* section 1  css*/
+.section1
+{
+    height: 10vh;
+}
+.section1-text h1 {
+    color: #e8942c;
+    height: 5vh;
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.section1-text p {
+     height: 3vh;
+    font-size: 0.5rem; 
+}
+ /* <!-- ------------------- -->
+    <!-- gallery --> */
+    .gallery
+    {
+        height: 110vh;
+        background-size: 200px;
+    }
+    .gallery {
+        height: 110vh;
+    }
+    .gallery-main {
+        height: 100vh;
+    }
+    .gallery-main {
+        height: 100vh;
+    }
+    .gallery-body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    .gallery-page {
+        width: 50%;
+        height: 26vh;
+    }
+    .gallery-img {
+        height: 20vh;
+        width: 100%;
+    }
+    .gallery-img img {
+        height: 20vh;
+        width: 100%;
+    }
+    .gallery-heading {
+        width: 100%;
+        height: 4vh;
+    }
+    .gallery-heading p
+    {
+        font-size: 0.5rem; 
+    }
+    .gallery-heading h1
+    {
+        font-size: 0.9rem;
+    }
+    .gallery-btn {
+        height: 7vh;
+    }
+    .gallery-btn a {
+        width: 32%;
+    }
+    /* <!-- gallery end -->
+    <!-- ----------------------------->
+    <!-- block 1 --> */
+    .block {
+        height: 45vh;
+    }
+    .block-img  {
+        height: 45vh;
+        /* width: 100%; */
+    }
+    .block-img img {
+        height: 45vh;
+        width: 100%;
+    }
+    .block-text-area {
+        height: 45vh;
+    }
+    .block-heading h1 {
+        font-size: 1.3rem;
+    }
+    .block-heading p {
+        font-size: 1.3rem;
+        font-size: 0.5rem;
+        height: 7vh;
+    }
+    .block-img img {
+        height: 45vh;
+        width: 100%;
+    }
+    .block-heading {
+        height: 45vh;
+        width: 50%;
+    }
+    .block-btn {
+        font-size: 0.7rem;
+        width: 53%;
+        height: 4vh;
+    }
+    /* <!-- block 2 end -->
+    <!--------------------------------------------> */
+    /* <!-- TITLE1  --> */
+    .title1 {
+        height: 50vh;
+        
+    }
+    .title1-text {
+        margin-top: 23vh;
+        height: 0vh;
+    }
+    .title1-text h1 {
+        width: 70%;
+
+    }
+    .title1-text p {
+        width: 70%;
+    }
+    /* <!-- TITLE END -->
+     <!------------------------------------------->
+     <!-- TITLE2  --> */
+     .title2 {
+        height: 50vh;
+     }
+     .title2-text h1 {
+        font-size: 1.4rem;
+        margin-right:0px ;
+     }
+/* 
+     <!-- TITLE2 END -->
+     <!--------------------------------------------->
+     <!-- title3  --> */
+
+
+     .section3 {
+        height: 71vh;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+     }
+     .section3-main
+     {
+
+        height: 73vh;
+     }
+     .section3-main h1 {
+        font-size: 1rem;
+     }
+     .section3-main p {
+        font-size: 0.5;
+        width: auto;
+     }
+     /* <!-- title3 end -->
+
+     <!--------------------------------->
+
+     <!--section 4--> */
+     .section4 {
+        background-size: 189px;
+        height: 40vh;
+     }
+     .section4-main {
+        height: 13vh;
+        width: 80%;
+     }
+     .section4-text {
+      height: 13vh;
+     }
+     .section4 .span1 {
+        font-size: 2rem;
+     }
+     
+.section4-text p {
+    font-size: 0.8rem;
+}
+/* <!--section 4 end -->
+     <!------------------------------------>
+     <!-- section5 --> */
+     .section5 {
+        height: 50vh;
+     }
+     .section5-main {
+        height: 50vh;
+    }
+    .section5-text {
+        height: 27vh;
+        width: 78%;
+        
+    } 
+    .section5-text .span1 {
+        width: 98%;
+        
+    }
+    .section5-text .span1 h1 {
+        height: 100%;
+        width: 97%;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section5-text p {
+
+     font-size: 0.8rem;
+    }
+    .section5-email-box {
+        width:100%;
+    }
+    .section5-email-box .span5 {
+     width: 70%;
+     display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .section5-email-box input {
+        height: 4vh;
+    }
+    .section5-email-box label {
+
+        height: 4.2vh;
+        width: 45%;
+        font-size: 0.5rem;
+    }
+
+}
